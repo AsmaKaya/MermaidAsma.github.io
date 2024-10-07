@@ -3,7 +3,8 @@
 
 ```mermaid
 erDiagram
-
+ PRODUCT ||--o{ SALES : "is sold in"
+ PRODUCT ||--o{ INVENTORY : "is tracked in"
  PRODUCT {
         int shoes_id PK "Primary Key"
         string NIKE_model name
@@ -11,7 +12,7 @@ erDiagram
         
     
  }
- 
+ CUSTOMER ||--o{ SALES : "makes"
   CUSTOMER {
         int customer_id PK "Primary Key"
         string name
