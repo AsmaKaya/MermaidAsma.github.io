@@ -14,7 +14,7 @@ erDiagram
         int product_id PK "Primary Key"
         string NIKE model_name
         string size
-        decimal price
+        string price
     }
 
     SALES {
