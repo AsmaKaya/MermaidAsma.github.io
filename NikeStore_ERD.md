@@ -2,7 +2,7 @@
 # MermaidAsma.github.io
 
 ```mermaid
-erDiagram
+
     CUSTOMER {
         int customer_id PK "Primary Key"
         string name
