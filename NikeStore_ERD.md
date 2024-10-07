@@ -35,7 +35,7 @@ erDiagram
     PRODUCT ||--o{ SALES : "is sold in"
     PRODUCT ||--|| INVENTORY : "has"
 
-*_Description of the diagram_*:
+# *_Description of the diagram_*:
 
 The ERD diagram is efficient to manage the inventory, sales transaction, and costumers information.
 The relationships created are:
