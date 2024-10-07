@@ -1,7 +1,9 @@
 # MermaidAsma.github.io
 
 
-CUSTOMER {
+```mermaid
+erDiagram
+    CUSTOMER {
         int customer_id PK "Primary Key"
         string name
         string email
