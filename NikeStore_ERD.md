@@ -39,6 +39,7 @@ erDiagram
 
 The ERD diagram is efficient to manage the inventory, sales transaction, and costumers information.
 The relationships created are:
+
 - Relationship between COSTUMER and SALES.
 - Relationship between PRODUCT and SALES: One model of shoes can be part of many sales
 - Relationship between PRODUCT and INVENTORY: A PRODUCT has one inventory or stock record.
