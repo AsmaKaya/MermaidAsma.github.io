@@ -14,7 +14,7 @@ erDiagram
         int product_id PK "Primary Key"
         string NIKE model_name
         string size
-        string price
+        decimal price
     }
 
     SALES {
@@ -34,8 +34,6 @@ erDiagram
     CUSTOMER ||--o{ SALES : "makes"
     PRODUCT ||--o{ SALES : "is sold in"
     PRODUCT ||--|| INVENTORY : "has"
-
-
 
 
 
