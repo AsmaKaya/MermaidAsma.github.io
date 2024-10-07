@@ -2,9 +2,9 @@
 
 ```mermaid
 erDiagram
- PRODUCT {
+ PRODUCT ||--o{ SALE 
  }
- CUSTOMER {
+ CUSTOMER ||--
  
  }
  SALE {
