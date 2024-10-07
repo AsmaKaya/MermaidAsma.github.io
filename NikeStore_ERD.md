@@ -9,8 +9,6 @@ erDiagram
         int shoes_id PK "Primary Key"
         string NIKE_model name
         string size
-        
-    
  }
  CUSTOMER ||--o{ SALES : "makes"
   CUSTOMER {
