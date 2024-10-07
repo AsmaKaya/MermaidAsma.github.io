@@ -1,10 +1,11 @@
 # MermaidAsma.github.io
 
+
 ```mermaid
 erDiagram
- PRODUCT ||--o{ SALE 
+ PRODUCT {
  }
- CUSTOMER ||--
+ CUSTOMER {
  
  }
  SALE {
